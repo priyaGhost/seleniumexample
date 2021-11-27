@@ -1,0 +1,25 @@
+{
+  "name": "seleniumexample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha tests/pages --require mocha --recursive --timeout 10000 test.js mocha-allure-reporter"
+  },
+  "keywords": [
+    "webdriver",
+    "allure"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^8.1.2",
+    "selenium-webdriver": "latest",
+    "chromedriver": "latest",
+    "chai": "^4.2.0",
+    "mocha-allure-reporter": "^1.4.0"
+  },
+  "devDependencies": {
+    "@wdio/allure-reporter": "^5.0.0"
+  }
+}
